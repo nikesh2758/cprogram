@@ -4,12 +4,12 @@ void rev()
 {
    char s[100];
 
-   printf("Enter a string to reverse\n");
+   printf("\nEnter a string to reverse\n");
    gets(s);
 
    strrev(s);
 
    printf("Reverse of the string: %s\n", s);
 
-   return 0;
+  // return 0;
 }

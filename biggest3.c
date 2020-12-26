@@ -1,7 +1,7 @@
 #include <stdio.h>
 void big() {
     double n1, n2, n3;
-    printf("Enter three different numbers: ");
+    printf("\nEnter three different numbers: ");
     scanf("%lf %lf %lf", &n1, &n2, &n3);
 
     // if n1 is greater than both n2 and n3, n1 is the largest
@@ -16,5 +16,5 @@ void big() {
     if (n3 >= n1 && n3 >= n2)
         printf("%.2f is the largest number.", n3);
 
-    return 0;
+  // return 0;
 }

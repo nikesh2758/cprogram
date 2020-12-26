@@ -1,7 +1,7 @@
 #include <stdio.h>
- void prime() {
+void prime() {
     int n, i, flag = 0;
-    printf("Enter a positive integer: ");
+    printf("\nEnter a positive integer: ");
     scanf("%d", &n);
 
     for (i = 2; i <= n / 2; ++i) {
