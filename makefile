@@ -1,5 +1,5 @@
 RANJAN.exe:main.o factorial.o biggest3.o reverse.o prime.o
-	gcc -o RANJAN.exe main.o factorial.o biggest3.o reverse.o prime.o
+	gcc -o Ranjan.exe main.o factorial.o biggest3.o reverse.o prime.o
 main.o:main.c
 	gcc -c main.c
 factorial.o:factorial.c
