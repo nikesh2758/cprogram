@@ -12,8 +12,8 @@ void fact() {
         for (i = 1; i <= n; ++i) {
             fact *= i;
         }
-        printf(\n"Factorial of %d = %llu", n, fact);
+        printf("Factorial of %d = %llu", n, fact);
     }
 
-   //  return 0;
+   // return 0;
 }
