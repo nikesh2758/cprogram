@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-main() {
+main(){
 fact();
 big();
 rev();
