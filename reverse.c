@@ -1,8 +1,4 @@
-#include <stdio.h>
-#include <string.h>
-void rev()
-{
-   char s[100];
+ar s[100];
 
    printf("\nEnter a string to reverse\n");
    gets(s);
@@ -13,3 +9,4 @@ void rev()
 
   // return 0;
 }
+
