@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
-main() {
-fact();
-big();
-rev();
-prime();
+void main() {
+void fact();
+void big();
+void rev();
+void prime();
 }
