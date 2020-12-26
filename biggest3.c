@@ -1,5 +1,5 @@
 #include <stdio.h>
-void big() {
+void big(){
     double n1, n2, n3;
     printf("\nEnter three different numbers: ");
     scanf("%lf %lf %lf", &n1, &n2, &n3);
